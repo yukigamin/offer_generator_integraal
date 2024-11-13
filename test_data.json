@@ -1,0 +1,84 @@
+{"products":[
+    {
+        "name":"go_disk_place_localstorage",
+        "french_name":" GO de place disque nécessaire local storage",
+        "category":"services",
+        "group":"Sauvegardes externalisée suisse - Backup As A Service",
+        "count":4,
+        "price":0,
+        "monthly_price":0.02,
+        "service_per_product":false,
+        "cat_type":"sauv_ext"
+    },
+    {
+        "name":"go_disk_place",
+        "french_name":" GO de place disque nécessaire",
+        "category":"services",
+        "group":"Sauvegardes externalisée suisse - Backup As A Service",
+        "count":1,
+        "price":0,
+        "monthly_price":0.25,
+        "service_per_product":false,
+        "cat_type":"sauv_ext"
+    },
+    {
+        "name":"application_environment",
+        "french_name":"- Environnement pour application métier \n- Support utilisateur et maintenance de base \n- Gestion des problèmes avec l'éditeur ou le partenaire",
+        "category":"infogerance",
+        "group":"Pack application métier par utilisateur",
+        "count":2,
+        "price":600,
+        "monthly_price":12,
+        "service_per_product":false,
+        "cat_type":"infogerance"
+    },
+    {
+        "name":"basic_outsourcing_package",
+        "french_name":"- Fortait base par site services (IT Service Management)\n- Exploitation de votre informatique\n- Suivi et optimisation de l'infrastructure informatique\n- Heldesk du lundi au vendredi de 8h à 18h\n",
+        "category":"infogerance",
+        "group":"Forfait de base Infogérance et maintien parc informatique",
+        "count":2,
+        "price":0,
+        "monthly_price":300,
+        "service_per_product":false,
+        "cat_type":"infogerance"
+    },
+    {
+        "name":"second_user_distance_assistance",
+        "french_name":"- Service d'assistance à distance par poste de travail\n- Gestion complète des portables et pc fixes\n- Mise à jour mensuelle du poste de travail",
+        "category":"infogerance",
+        "group":"Forfait poste de travail supplémentaire",
+        "count":2,
+        "price":0,
+        "monthly_price":25,
+        "service_per_product":false,
+        "cat_type":"infogerance"
+    }],
+"orderedCategories":["infogerance","services"],
+"orderedCategoriesWithCancellations":["infogerance","services"],
+"categoriesMap":{
+    "services":{
+        "groups":["Sauvegardes externalisée suisse - Backup As A Service"],
+        "direct_discount":0,
+        "monthly_discount":0,
+        "discount":"",
+        "description":"",
+        "conditions":""
+    },
+    "infogerance":{
+        "groups":["Forfait de base Infogérance et maintien parc informatique","Pack application métier par utilisateur","Forfait poste de travail supplémentaire"],
+        "direct_discount":0,
+        "monthly_discount":0,
+        "discount":"",
+        "description":"",
+        "conditions":""
+    }
+},
+"contractLength":12,
+"contractStart":"01/01/2025",
+"offerNumber":"20241107-003",
+"offerValidity":"Mardi, 31 Décembre 2024",
+"currentPage":0,
+"introduction":"",
+"proposition":""
+}

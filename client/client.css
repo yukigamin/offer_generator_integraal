@@ -1,0 +1,166 @@
+/* Base CSS */
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    background-color: #EBE7E0; /* Bleu très clair pour le fond */
+    color: #333; /* Texte en gris foncé pour un bon contraste */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CSS du logo */
+.logo-container {
+    position: absolute; /* Position absolue sur la page */
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+.logo-container img {
+    height: 60px;
+    width: auto; 
+}
+
+/* CSS pour le titre */
+header {
+    text-align: center;
+    margin-bottom: 0px;
+}
+.nine h1 {
+    text-align:center; 
+    font-size:50px; 
+    text-transform:uppercase; 
+    color:#222; 
+    letter-spacing:1px;
+    font-family:"Playfair Display", serif; 
+    font-weight:300;
+}
+.nine h1 span {
+    margin-top: 0px;
+    font-size:15px; 
+    color:#444; 
+    word-spacing:1px; 
+    font-weight:normal; 
+    letter-spacing:2px;
+    text-transform: uppercase; 
+    font-family:"Raleway", sans-serif;
+    font-weight:500;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+.nine h1 span:after,.nine h1 span:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #afa8a8;
+    border-top: 1px solid #afa8a8;
+    height: 5px;
+    background-color:#EBE7E0;
+}
+
+/* CSS pour le formulaire central */
+form {
+    border: 2px solid #35322A;
+    background-color: #EBE7E0; /* Fond clair pour le formulaire */
+    border-radius: 8px; /* Coins arrondis pour le formulaire */
+    padding: 20px;
+    width: 300px; /* Largeur fixe pour le formulaire */
+}
+label {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', Calibri, sans-serif;
+    color: #35322A; /* Couleur sombre pour le texte dans les labels */
+    margin-bottom: 15px;
+    display: block;
+}
+input[type="text"],
+input[type="email"] {
+    background-color: #EBE7E0;
+    color: #35322A;
+    width: calc(100% - 22px); /* Prend toute la largeur moins la marge intérieure */
+    padding: 10px;
+    border: 1px solid #EBE7E0;
+    border-bottom-color: #35322A; /* Fait en sorte que seule la bordure du bas soit visible */
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Inclut la marge intérieure dans la largeur totale */
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #35322A; /* Bordure foncée au focus */
+    outline: none;
+}
+button {
+    background-color: #e3dccf;
+    color: #35322A;
+    border: 1px solid #35322A;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer; /* Curseur en forme de main */
+    font-size: 16px;
+    width: 100%;
+}
+button:hover {
+    background-color: #e8d9bf; /* Couleur plus foncée au survol */
+}
+#submit:hover {
+    background-color: #c8fada; /* Couleur verte au survol */
+}
+
+/* Css des asides */
+aside {
+    position: fixed;
+    height: 200px;
+    top: 50% - (200/2)px;
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Le right-aside est à 25px du bord droite, le left-aside à 25px du bord gauche */
+#right-aside {
+    right: 25px;
+}
+#left-aside {
+    left: 25px;
+    padding-top: 0;
+    height: 500px;
+}
+
+#infos, #searchInput {
+    border: 1px solid black;
+}
+
+/* Gestion de l'aside de gauche et de la liste de clients */
+#client-search-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration-line: underline;
+}
+
+.client-list {
+    margin: 10px 0;
+    max-height: 380px; /* Ajustez la valeur pour contrôler la hauteur maximale */
+    overflow-y: auto; /* Autorise le scroll vertical */
+}
+
+.client-list li {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 115%;
+}
+.client-list li:hover {
+    background-color: #f0f0f0;
+}

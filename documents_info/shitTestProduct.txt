@@ -1,0 +1,42 @@
+{"products":[{
+	"name":"fortigate_40F",
+	"french_name":"Firewall- ui40F",
+	"category":"reseau",
+	"group":"tomate",
+	"count":1,
+	"price":485,
+	"monthly_price":0,
+	"service_per_product":false,
+	"cat_type":"reseau"},
+	{
+	"name":"fortigate_threat_protection",
+	"french_name":"Fortigate - esaiThreat Protection (IPS, Advanced Malware Protection Service, Application Control, and FortiCare Premium)",
+	"category":"reseau",
+	"group":"Licences et logiciels",
+	"count":1,
+	"price":388,
+	"monthly_price":0,
+	"service_per_product":false,
+	"cat_type":"reseau"}],
+	
+	"orderedCategories":["reseau"],
+	"orderedCategoriesWithCancellations":["reseau"],
+	"categoriesMap":{
+		"reseau":{
+			"groups":[["Licences et logiciels","tomate"],"Licences et logiciels","tomate"],
+	"direct_discount":0,
+	"monthly_discount":0,
+	"discount":"",
+	"description":"",
+	"conditions":""}},
+"contractLength":12,"contractStart":"01/01/2025","offerNumber":"20241101-003","offerValidity":"Mardi, 31 Décembre 2024","currentPage":0,"introduction":"","proposition":""}
+
+
+{"products":[{"name":"fortigate_40F","french_name":"Firewall - ui40F","category":"reseau","group":"tomate","count":1,"price":485,"monthly_price":0,"service_per_product":false,"cat_type":"reseau"},{"name":"fortigate_threat_protection","french_name":"Fortigate - esaiThreat Protection (IPS, Advanced Malware Protection Service, Application Control, and FortiCare Premium)","category":"reseau","group":"Licences et logiciels","count":1,"price":388,"monthly_price":0,"service_per_product":false,"cat_type":"reseau"}],"orderedCategories":["reseau"],"orderedCategoriesWithCancellations":["reseau"],"categoriesMap":{"reseau":{"groups":["Licences et logiciels","tomate"],"direct_discount":0,"monthly_discount":0,"discount":"","description":"","conditions":""}},"contractLength":12,"contractStart":"01/01/2025","offerNumber":"20241101-003","offerValidity":"Mardi, 31 Décembre 2024","currentPage":0,"introduction":"","proposition":""}
+
+
+
+{"tomate":["fortigate_40F"],"Licences et logiciels":["fortigate_threat_protection"]}
+
+["Licences et logiciels","tomate"]
+
